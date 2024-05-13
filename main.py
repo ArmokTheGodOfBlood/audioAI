@@ -1,5 +1,6 @@
 import numpy as np
 import os
+import jax
 
 os.environ["KERAS_BACKEND"] = "jax"
 
@@ -20,3 +21,5 @@ print("x_train shape:", x_train.shape)
 print("y_train shape:", y_train.shape)
 print(x_train.shape[0], "train samples")
 print(x_test.shape[0], "test samples")
+
+Ты хуесос
